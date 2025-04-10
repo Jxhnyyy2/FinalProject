@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jayef's Portfolio</title>
+    </head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: hsla(205, 46%, 10%, 1);
+            background: radial-gradient(circle, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+            background: -moz-radial-gradient(circle, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+            background: -webkit-radial-gradient(circle, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0E1C26", endColorstr="#2A454B", GradientType=1);
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #141c24;
+            color: #fff;
+            padding: 8px 0;
+            position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* optional */
+        }
+
+        nav {
+    padding: 0 20px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between; /* or space-between */
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 8px 0;
+    flex-wrap: wrap; /* optional if responsive */
+}
+
+.Nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 130%;
+}
+
+        .logout-btn {
+            background-color: #e91e63;
+            border: none;
+            padding: 8px 15px;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .logout-btn:hover {
+            background-color: #c2185b;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 8px auto;
+            padding: 0 20px;
+        }
+
+        .Content-box {
+            margin: 40px 0 20px 0;
+            border-bottom: 5px solid #00bcd4;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 12px 0;
+            font-size: 14px;
+            color: #777;
+            border-top: 1px solid #ccc;
+        }
+
+        section {
+            display: block;
+        }
+
+        .about-section {
+    padding: 50px 20px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.about-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00bcd4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-text {
+    max-width: 600px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.section-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* .bullet-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+} */
+
+    </style>
+        <body>
+            <header>
+                <nav>
+                    <div class="Navbar">
+                    <div class="Nav-links">   
+                        <a href="#ABOUT ME">About</a>
+                        <a href="#SKILLS">Skills</a>
+                        <a href="#PROJECTS">Projects</a>
+                        <a href="#EDUCATIONAL BACKGROUND">Background</a>  
+                        <a href="#CONTACT">Contact</a> 
+                        </div>
+                        <!-- <button class="logout-btn" onclick="window.location.href='loginFinal.html'">LOGOUT</button> -->
+                    </div>
+                </nav>
+            </header>
+            <section>
+                <div class="container">
+                    <section id="ABOUT ME" class="about-section">
+                        <div class="Content-box"></div>
+                        <div class="section-container">
+                            
+                            <img src="/images/IMG_0200.JPG" alt="John Francis Diamat" class="about-img">
+                            <div class="section-text">
+                                <h1>ABOUT ME</h1>
+                                <p>
+                                    Hi! I'm John Francis Diamat, a 1st-year IT student at PHINMA Araullo University. 
+                                    I'm passionate about technology, programming, and continuously learning new skills in the IT field. 
+                                    I aspire to become a professional in the industry and make meaningful contributions through innovation and problem-solving. 
+                                    When I'm not studying, I enjoy spending time with my family and staying true to my values. 
+                                    I'm always eager to learn and grow, both personally and professionally. 
+                                    Let's connect and explore the exciting world of technology together!
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="SKILLS" class="about-section">
+                    <div class="Content-box" ></div>
+                    <div class="section-container">
+                        <div class="section-text">
+                    <h1>SKILLS</h1>
+                    <p>I have a mix of technical and creative skills. 
+                        I can use Visual Studio Code to work with Python, Java, HTML, and CSS,  
+                        showing that I know how to handle important tools for coding and development. 
+                        I'm also familiar with Figma, which helps me work on design projects. 
+                        On the creative side, I enjoy photography and videography, and while I'm not an expert, 
+                        I know how to use these skills properly to tell stories through visuals. 
+                        This blend of technical knowledge and creativity makes me flexible and ready for different opportunities.</p>
+                    </div>
+                    </div>
+                    </section>
+                <section id="PROJECTS" class="about-section">
+                    <div class="Content-box" ></div>
+                    <div class="section-container">
+                        <div class="section-text">
+                    <h1>PROJECTS</h1>
+                    <h2>1st-year College Projects</h2> <br>
+                    <p>First Semester: Ordering System (Phyton)</p>
+                    <p>Second Semester: Loading System (Java)</p>
+                    </div>
+                    </div>
+                </section>
+            <section id="EDUCATIONAL BACKGROUND" class="about-section">
+                    <div class="Content-box" ></div>
+                    <div class="section-container">
+                        <div class="section-text">
+                    <h1>Educational Background</h1>
+                    <p>Elementary: Rizal Central School<br>
+                    Secondary: Rizal National Highschool<br>
+                    Senior High: Rizal National Highschool - Senior High</p>
+                    </div>
+                    </div>
+                </section>
+                <section id="CONTACT" class="about-section">
+                    <div class="Content-box" ></div>
+                    <div class="section-container">
+                        <div class="section-text">
+                    <h1>CONTACT</h1>
+                    <p>You can call me to: 09611918671 (Smart)<br>
+                        You can send me a Message to: John Francis Diamat (Messenger)<br>
+                        You can send me a Message to: @jxhnyyy_ (Instagram)<br>
+                        You can send me a Gmail to: joco.diamat.au@phinmaed.com<br></p>
+                        </div>
+                        </div>
+                    </section>
+                    <div class="footer">
+                        © 2025 John's Portfolio. All rights reserved.
+                    </div>
+                </div>
+            </section>
+    
+    </body>
+</html>
